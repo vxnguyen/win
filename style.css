@@ -573,14 +573,15 @@ html {
   height: 100%; }
 
 .apple-player {
-  height: 400px;
+  height: 300px;
   width: 250px; }
   @media screen and (min-width: 32.5em) {
     .apple-player {
       width: 300px; } }
   @media screen and (min-width: 58.75em) {
     .apple-player {
-      width: 400px; } }
+      width: 400px;
+      height: 400px; } }
   @media screen and (min-width: 81.25em) {
     .apple-player {
       width: 500px; } }

@@ -7,7 +7,7 @@
 }
 
 .apple-player {
-	height: 400px;
+	height: 300px;
 	width: 250px;
 
 	@media screen and (min-width: 32.5em) {
@@ -16,6 +16,7 @@
 
 	@media screen and (min-width: 58.75em) {
 		width: 400px;
+		height: 400px;
 	}
 
 	@media screen and (min-width: 81.25em) {
