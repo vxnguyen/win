@@ -545,7 +545,7 @@ html {
   padding-left: 30px; }
 .front-page .front-page-image {
   max-height: 85%;
-  width: auto !important; }
+  width: auto; }
   @media screen and (max-width: 31.25em) {
     .front-page .front-page-image {
       display: none; } }
@@ -555,6 +555,7 @@ html {
     .front-page .front-page-image-mobile {
       display: block;
       max-height: 90%;
+      width: auto;
       margin: 0 auto; } }
 
 /*--------------------------------------------------------------
