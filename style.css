@@ -613,6 +613,8 @@ html {
   .gigs .scroller {
     width: 100%;
     height: 100%; }
+    .gigs .scroller > div {
+      overflow-y: hidden; }
 
 .inquiries-cta {
   display: inline-block;

@@ -45,35 +45,37 @@ get_header(); ?>
 
 				<div class="section gigs">
 					<div class="scroller">
-						<div class="flex-container">
-							<div class="inquiries-cta">
-								<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
-									<a href="mailto:<?php the_field('email'); ?>">CONTACT FOR INQUIRIES</a>
-								<?php endwhile; wp_reset_query(); ?>
-							</div>
+						<div>
+							<div class="flex-container">
+								<div class="inquiries-cta">
+									<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
+										<a href="mailto:<?php the_field('email'); ?>">CONTACT FOR INQUIRIES</a>
+									<?php endwhile; wp_reset_query(); ?>
+								</div>
 
-							<?php 
-								$args = array(
-									'post_type' => 'post',
-									'order' => 'ASC'
-								);
-							
-								$the_query = new WP_Query( $args );
-							?>
+								<?php 
+									$args = array(
+										'post_type' => 'post',
+										'order' => 'ASC'
+									);
+								
+									$the_query = new WP_Query( $args );
+								?>
 
-							<div class="gig-container">
-								<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
-									<div class="gig-meta">
-										<div class="gig-date">
-											<p><?php the_field('date'); ?></p>
+								<div class="gig-container">
+									<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
+										<div class="gig-meta">
+											<div class="gig-date">
+												<p><?php the_field('date'); ?></p>
+											</div>
+
+											<div class="gig-location">
+												<h2><?php the_field('venue'); ?></h2>
+												<p><?php the_field('location'); ?></p>
+											</div>
 										</div>
-
-										<div class="gig-location">
-											<h2><?php the_field('venue'); ?></h2>
-											<p><?php the_field('location'); ?></p>
-										</div>
-									</div>
-								<?php endwhile; wp_reset_query(); ?>
+									<?php endwhile; wp_reset_query(); ?>
+								</div>
 							</div>
 						</div>
 					</div>
