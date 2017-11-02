@@ -543,6 +543,9 @@ html {
   align-items: center;
   padding-right: 20px;
   padding-left: 30px; }
+  @media screen and (max-width: 31.25em) {
+    .front-page .flexbox-container {
+      justify-content: center; } }
 .front-page .front-page-image {
   max-height: 85%;
   width: auto; }
@@ -553,10 +556,9 @@ html {
   display: none; }
   @media screen and (max-width: 31.25em) {
     .front-page .front-page-image-mobile {
-      display: block;
+      display: initial;
       max-height: 90%;
-      width: auto;
-      margin: 0 auto; } }
+      width: auto; } }
 
 /*--------------------------------------------------------------
 ## Album
