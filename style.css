@@ -613,7 +613,8 @@ html {
 
 .inquiries-cta {
   display: inline-block;
-  width: 50px; }
+  width: 50px;
+  height: 300px; }
   .inquiries-cta a {
     position: relative;
     writing-mode: vertical-rl;
