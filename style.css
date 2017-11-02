@@ -619,10 +619,7 @@ html {
     position: relative; }
     .gigs .scroller > div {
       overflow-y: hidden;
-      position: absolute;
-      top: 50px;
-      left: 50px;
-      padding-right: 50px; }
+      position: absolute; }
 
 .inquiries-cta {
   display: inline-block;
