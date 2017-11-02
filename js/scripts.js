@@ -1,4 +1,11 @@
 ( function($) {
+	$(window).load(function() {
+		var $scrollers = document.querySelectorAll(".scroller");
+		
+		for (i=0; i < $scrollers.length ; i++)
+			new IScroll($scrollers[i]);
+	}); 
+
 	$(document).ready(function() {
 		$('#fullpage').fullpage({
 			anchors: ['win', 'album', 'gigs', 'contact'],
@@ -17,7 +24,7 @@
 		});
 
 		$.fn.fullpage.setMouseWheelScrolling(false);
-    		$.fn.fullpage.setAllowScrolling(false);
+    	$.fn.fullpage.setAllowScrolling(false);
 	});
 
 	/*! iScroll v5.2.0-snapshot ~ (c) 2008-2017 Matteo Spinelli ~ http://cubiq.org/license */
