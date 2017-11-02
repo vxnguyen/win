@@ -15,7 +15,7 @@ get_header(); ?>
 				<div class="section front-page">
 					<div class="flexbox-container">
 						<img class="front-page-image" src="<?php bloginfo('stylesheet_directory'); ?>/images/WinFromTheBronx.png" alt="Win From the Bronx">
-						<img class="front-page-image-mobile" src="<?php bloginfo('stylesheet_directory'); ?>/images/WinFromTheBronx_mobile.png" alt="Win From the Bronx">
+						<img class="front-page-image-mobile" src="<?php bloginfo('stylesheet_directory'); ?>/images/WinFromTheBronx_Mobile.png" alt="Win From the Bronx">
 					</div>
 				</div>
 
