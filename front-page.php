@@ -93,7 +93,7 @@ get_header(); ?>
 					<div class="contact-flex-container">
 						<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
 							<a class="email" href="mailto:<?php the_field('email'); ?>"><?php the_field('email'); ?></a>
-							<a class="mobile-email" href="mailto:<?php the_field('email_mobile'); ?>"><?php the_field('email_mobile'); ?></a>
+							<a class="mobile-email" href="mailto:<?php the_field('email'); ?>"><?php the_field('email_mobile'); ?></a>
 						<?php endwhile; wp_reset_query(); ?>
 					</div>	
 				</div>

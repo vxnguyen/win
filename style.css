@@ -288,6 +288,10 @@ big {
   @media screen and (max-width: 50em) {
     .section {
       border-top: 95px solid #F2F2F2; } }
+  @media screen and (max-width: 31.25em) {
+    .section {
+      border-left: none;
+      border-right: none; } }
 
 /*--------------------------------------------------------------
 # Elements

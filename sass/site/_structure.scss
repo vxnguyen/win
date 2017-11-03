@@ -43,4 +43,9 @@
 	@media screen and (max-width: 50em) {
 		border-top: 95px solid $color__body-bg;
 	}
+
+	@media screen and (max-width: 31.25em) {
+		border-left: none;
+		border-right: none;
+	}
 }
