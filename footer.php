@@ -14,8 +14,13 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-		</div><!-- .site-info -->
+		<div class="device-orientation-message">
+			<div class="flexbox-container">
+				<div>
+					<p>Please change your device orientation to portrait mode to view this website</p>
+				</div>
+			</div>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
