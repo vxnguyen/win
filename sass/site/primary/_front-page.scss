@@ -38,8 +38,8 @@
 	width: 100vh;
 	height: 100vh;
 
-	@media screen and (max-width: 31.25em) and (orientation: landscape) {
-		display: initial;
+	@media screen and (max-width: 31.25em) and (orientation: portrait) {
+		display: block;
 	}
 }
 

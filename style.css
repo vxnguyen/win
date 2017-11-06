@@ -568,9 +568,9 @@ html {
   display: none;
   width: 100vh;
   height: 100vh; }
-  @media screen and (max-width: 31.25em) and (orientation: landscape) {
+  @media screen and (max-width: 31.25em) and (orientation: portrait) {
     .site-footer {
-      display: initial; } }
+      display: block; } }
 
 .device-orientation-message {
   position: absolute;
