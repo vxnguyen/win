@@ -16,9 +16,7 @@
 	<footer id="colophon" class="site-footer">
 		<div class="device-orientation-message">
 			<div class="flexbox-container">
-				<div>
-					<p>Please change your device orientation to portrait mode to view this website</p>
-				</div>
+				<p>Please change your device orientation to portrait mode to view this website.</p>
 			</div>
 		</div>
 	</footer><!-- #colophon -->
