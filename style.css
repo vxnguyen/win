@@ -564,16 +564,16 @@ html {
       max-height: 90%;
       width: auto; } }
 
-.device-orientation-messae {
+.device-orientation-message {
   display: none; }
-  .device-orientation-messae .flexbox-container {
+  .device-orientation-message .flexbox-container {
     display: flex;
     justify-content: center;
     align-content: center; }
-    .device-orientation-messae .flexbox-container > div {
+    .device-orientation-message .flexbox-container > div {
       max-width: 80%; }
   @media screen and (max-width: 31.25em) and (orientation: landscape) {
-    .device-orientation-messae {
+    .device-orientation-message {
       display: initial;
       position: absolute;
       top: 0;
