@@ -570,7 +570,7 @@ html {
   display: none;
   width: 100vh;
   height: 100vh; }
-  @media screen and (max-width: 31.25em) and (orientation: landscape) {
+  @media screen and (max-width: 43.75em) and (orientation: landscape) {
     .site-footer {
       display: block; } }
 
