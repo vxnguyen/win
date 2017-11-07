@@ -552,12 +552,14 @@ html {
       justify-content: center; } }
 .front-page .front-page-image {
   max-height: 85%;
+  object-fit: contain;
   width: auto; }
   @media screen and (max-width: 31.25em) {
     .front-page .front-page-image {
       display: none; } }
 .front-page .front-page-image-mobile {
-  display: none; }
+  display: none;
+  object-fit: contain; }
   @media screen and (max-width: 31.25em) {
     .front-page .front-page-image-mobile {
       display: initial;
