@@ -73,6 +73,7 @@ get_header(); ?>
 											<div class="gig-location">
 												<h2><?php the_field('venue'); ?></h2>
 												<p><?php the_field('location'); ?></p>
+												<?php the_field('info'); ?>
 											</div>
 										</div>
 									<?php endwhile; wp_reset_query(); ?>

@@ -109,6 +109,21 @@
 		p {
 			line-height: 1.1;
 			@include font-size(.9);
+
+			// Link to flyer
+		a {
+			color: $color__font-main;
+			transition: color .3s;
+
+			&:visited {
+				color: $color__font-main;
+			}
+
+			&:hover {
+				color: $color__link-hover;
+				transition: color .3s;
+			}
+		}
 		}
 	}
 

@@ -347,7 +347,7 @@ a {
   a:visited {
     color: purple; }
   a:hover, a:focus, a:active {
-    color: midnightblue; }
+    color: #BF0000; }
   a:focus {
     outline: 0; }
   a:hover, a:active {
@@ -723,6 +723,14 @@ html {
     line-height: 1.1;
     font-size: 14.4px;
     font-size: 0.9rem; }
+    .gig-container .gig-location p a {
+      color: #F2F2F2;
+      transition: color .3s; }
+      .gig-container .gig-location p a:visited {
+        color: #F2F2F2; }
+      .gig-container .gig-location p a:hover {
+        color: #BF0000;
+        transition: color .3s; }
   @media screen and (max-width: 26.875em) {
     .gig-container {
       padding-left: 0; } }
