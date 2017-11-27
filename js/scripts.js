@@ -3,7 +3,10 @@
 		var $scrollers = document.querySelectorAll(".scroller");
 		
 		for (i=0; i < $scrollers.length ; i++)
-			new IScroll($scrollers[i]);
+			new IScroll($scrollers[i],
+			{
+				click:true
+			});
 	}); 
 
 	$(document).ready(function() {
